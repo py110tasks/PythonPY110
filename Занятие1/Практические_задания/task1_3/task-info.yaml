@@ -14,7 +14,7 @@ files:
               if current_distance == max_distance:
                   return points[index]
     initial_state:
-      length: 286
+      length: 290
       offset: 128
     initialized_from_dependency: false
     selected: true

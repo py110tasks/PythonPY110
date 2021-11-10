@@ -8,7 +8,7 @@ files:
     placeholder_text: '[i ** 2 for i in iterator_numbers if i % 2 == 0]  # TODO заменить
       на map и filter'
     initial_state:
-      length: 81
+      length: 69
       offset: 91
     initialized_from_dependency: false
     selected: true
@@ -20,7 +20,7 @@ files:
     placeholder_text: 'num in numbers:  # TODO напечатать первые 10 чисел'
     initial_state:
       length: 50
-      offset: 182
+      offset: 170
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -29,8 +29,8 @@ files:
     length: 77
     placeholder_text: 'num)  # TODO с помощью next получать следующий элемент от итератора'
     initial_state:
-      length: 67
-      offset: 247
+      length: 77
+      offset: 235
     initialized_from_dependency: false
     selected: false
     status: Solved
