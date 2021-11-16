@@ -1,5 +1,11 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -7,11 +13,10 @@ files:
         # Write your solution here
         pass
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Mon, 15 Nov 2021 11:59:34 UTC
+  actual: |
+    [1]
 record: -1
