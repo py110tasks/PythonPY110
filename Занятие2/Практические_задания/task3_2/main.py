@@ -8,7 +8,9 @@ def time_decorator(fn):
         print("Этот код будет выполняться перед каждым вызовом функции")
 
         # TODO зафиксировать время до начала выполнения функции
-        result = fn(*args, **kwargs)
+        st = time.time()
+        for _ in range(1000000): result = fn(*args, **kwargs)
+        print(time.time()-st, 'sec.')
         # TODO зафиксировать время после выполнения
 
         print("Этот код будет выполняться после каждого вызова функции")
@@ -17,6 +19,7 @@ def time_decorator(fn):
 
 
 # TODO задекорировать функцию
+@time_decorator
 def pow_(a, n):
     return pow(a, n)
 

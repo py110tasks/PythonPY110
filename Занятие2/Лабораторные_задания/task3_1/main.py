@@ -1,7 +1,8 @@
 def positive_check(fn):
     def wrapper(arg):
         # TODO написать проверку положительности аргумента arg
-
+        if arg < 0:
+            raise ValueError("Аргумент функции не является положительным числом")
         result = fn(arg)
         return result
 
@@ -9,8 +10,9 @@ def positive_check(fn):
 
 
 # TODO задекорировать функцию
+@positive_check
 def some_func(num: int):
-    ...
+    pass
 
 
 if __name__ == "__main__":

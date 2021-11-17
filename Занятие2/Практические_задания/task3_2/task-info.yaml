@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 222
-    length: 55
+    length: 80
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
     initial_state:
       length: 55
       offset: 222
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: t0 = time.time()
-  - offset: 323
+  - offset: 411
     length: 43
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
@@ -21,19 +21,19 @@ files:
       offset: 323
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 484
-    length: 29
+  - offset: 572
+    length: 45
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 484
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '@time_decorator'
   text: |
     import time
@@ -71,6 +71,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Wed, 17 Nov 2021 15:34:16 UTC
 record: -1
 post_submission_on_open: true

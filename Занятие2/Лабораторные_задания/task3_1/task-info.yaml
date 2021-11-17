@@ -11,19 +11,19 @@ files:
       offset: 54
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if not arg > 0:
                   raise ValueError("Аргумент функции не является положительным числом")
-  - offset: 179
-    length: 29
+  - offset: 280
+    length: 45
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 179
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '@positive_check'
   text: |
     def positive_check(fn):
@@ -49,6 +49,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Wed, 17 Nov 2021 16:12:40 UTC
 record: -1
 post_submission_on_open: true

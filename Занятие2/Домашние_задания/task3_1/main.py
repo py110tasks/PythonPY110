@@ -3,7 +3,7 @@ def output_type_list(fn):
 
         result = fn(*args, **kwargs)
         if not isinstance(result, list):
-            raise TypeError(f"Результатом выполнения функции {fn} должен быть список")
+            raise TypeError(f"Результатом выполнения функции {fn.__name__} должен быть список")
 
     return wrapper
 

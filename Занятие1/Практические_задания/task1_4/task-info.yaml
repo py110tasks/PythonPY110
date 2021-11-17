@@ -17,7 +17,7 @@ files:
       верхний регистр c помощью map'
     initial_state:
       length: 88
-      offset: 42
+      offset: 43
     initialized_from_dependency: false
     selected: false
     status: Solved
