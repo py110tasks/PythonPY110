@@ -7,7 +7,7 @@ files:
     length: 80
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
     initial_state:
-      length: 55
+      length: 80
       offset: 222
     initialized_from_dependency: false
     selected: true
@@ -18,7 +18,7 @@ files:
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
       length: 43
-      offset: 323
+      offset: 411
     initialized_from_dependency: false
     selected: false
     status: Solved
@@ -29,8 +29,8 @@ files:
     length: 45
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
-      length: 29
-      offset: 484
+      length: 45
+      offset: 572
     initialized_from_dependency: false
     selected: true
     status: Solved

@@ -7,7 +7,7 @@ files:
     length: 33
     placeholder_text: '...  # TODO записать функцию-генератор'
     initial_state:
-      length: 38
+      length: 33
       offset: 28
     initialized_from_dependency: false
     selected: true

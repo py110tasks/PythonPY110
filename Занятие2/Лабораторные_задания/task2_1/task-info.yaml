@@ -19,7 +19,7 @@ files:
       бесконечности'
     initial_state:
       length: 73
-      offset: 147
+      offset: 160
     initialized_from_dependency: false
     selected: false
     status: Solved

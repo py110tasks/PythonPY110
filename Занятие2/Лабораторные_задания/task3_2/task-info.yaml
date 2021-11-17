@@ -23,8 +23,8 @@ files:
     length: 44
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
-      length: 29
-      offset: 94
+      length: 44
+      offset: 264
     initialized_from_dependency: false
     selected: true
     status: Solved

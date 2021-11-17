@@ -7,7 +7,7 @@ files:
     length: 58
     placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
     initial_state:
-      length: 63
+      length: 58
       offset: 57
     initialized_from_dependency: false
     selected: true

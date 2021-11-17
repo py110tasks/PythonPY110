@@ -8,7 +8,7 @@ files:
     placeholder_text: '...  # TODO записать выражение-генератор для возведения чисел
       в квадрат'
     initial_state:
-      length: 71
+      length: 103
       offset: 46
     initialized_from_dependency: false
     selected: true

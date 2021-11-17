@@ -8,7 +8,7 @@ files:
     placeholder_text: '# TODO объявить, что переменная count не локальная, а её надо
       искать в nonlocal области видимости'
     initial_state:
-      length: 97
+      length: 98
       offset: 112
     initialized_from_dependency: false
     selected: true
